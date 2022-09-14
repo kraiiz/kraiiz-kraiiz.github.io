@@ -1,0 +1,129 @@
+.navbar
+{
+    background-color: rgb(26, 26, 26);
+    font-family: Ink Free ;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px;
+
+
+}
+.meslien:hover
+{
+    background-color: rgb(38, 148, 255);
+    border-radius: 10px;
+
+}
+.meslien
+{
+    margin-right: 20px;
+
+    border-right: rgb(255, 255, 255) solid 1px;
+}
+
+
+.flipcard {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 300px;
+    perspective: 500px;
+    margin: 10px;
+    background-image: no-repeat;
+}
+
+.flipcard.h.flip .front {
+    transform: rotateY(180deg);
+    background-color: #253e42;
+}
+
+.flipcard.h.flip .back {
+    transform: rotateY(0deg);
+    background-color: #ffae00;
+}
+
+.flipcard.h .back {
+    transform: rotateY(-180deg);
+}
+
+.flipcard .front, .flipcard .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+    padding: 10px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    border: 2px solid #070606;
+    
+
+}
+
+.start {
+    background-color: #f6e309;
+    color:white;
+
+}
+
+
+.bouton {
+    border-radius: 10px;
+    background-color: yellow;
+    border-color: black;
+    font-size: 25px;
+    border:none;
+    padding: 10px;
+
+}
+.bouton:hover
+{background-color: gray}
+
+.smiley {
+
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+
+.nom
+{
+margin-top: 100%;
+font-size: 150%;
+font-weight: bold;
+letter-spacing: normal;
+text-align: center;
+color:black;text-shadow: 20px 20px rgba(0, 0, 0, 0.07);
+}
+.prenom{
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+.imagefront
+{
+    background-image: url("../images/madras-1.webp" );
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+
+}
+
+body
+{
+    background-color: #bdb4b4;
+    font-family: "Varela Round";
+}
+
+#flipper:disabled
+{
+    background-color: black;
+}
+
+#carte:disabled{
+    background-color: black;
+}
+
+#reinitialiser:disabled{
+    background-color: black;
+}

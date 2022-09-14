@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mega Mixer</title>
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mega-mixer.css" rel="stylesheet">
+</head>
+
+<body>
+<!--début de la navbar!-->
+<nav class="navbar navbar-expand navbar-secondary " aria-label="Second navbar example">
+    <div class="container-fluid">
+        <a class="nohover" >Mes projets  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav me-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active meslien" aria-current="page" href="../nike/index.html" >Nike</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active meslien" aria-current="page" href="../jeux_chifoumi/index.html" >chi/fou/mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active meslien" aria-current="page" href="../exo_nuage/nuage.html" >nuage</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active meslien" aria-current="page" href="../../index.html">acceuil</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<!--fin de la navbar!-->
+
+<!-- début titre -->
+<div class="container-fluid d-flex flex-row justify-content-center align-items-center p-5"
+     style="background-color: #bdb4b4">
+    <div class="h1">MEGA</div>
+    <div><img src="./images/blender.png" width="80px"></div>
+    <div class="h1">MIXER</div>
+</div>
+<!-- fin titre -->
+
+<!--début bouton -->
+<div class="container-fluid d-flex flex-row justify-content-center align-items-center  bg-black  ">
+    <!--formulaire-->
+    <div class=" m-3 bouton ">
+
+            <select id="carte" name="carte" class="bouton">
+                <option value="220" >1</option>
+                <option value="440" >2</option>
+                <option value="660" >3</option>
+                <option value="880" selected>4</option>
+                <option value="1100" >5</option>
+                <option value="1320" >6</option>
+
+            </select>
+    </div>
+        <!--fin du formulaire -->
+
+    <div class="m-3 bouton">
+        <button class="bouton" id="flipper">Placer</button>
+    </div>
+
+    <div class=" m-3 bouton "> <button  class="bouton" id="reinitialiser" > REINITIALISER</button></div>
+
+</div>
+<!--fin bouton -->
+
+<!--début carte -->
+
+<div id="taillecarte"
+style="width:880px; margin:auto;" >
+    <!--1ére carte
+
+    <div class="flipcard h" id="card">
+        <div class=" front start imagefront ">
+
+
+        </div>
+            <div class="back image1">
+
+                <div class="nom"> BACA</div>
+                <div class="prenom"> steven</div>
+
+        </div>
+    </div>
+    fin 1ére carte-->
+
+</div>
+
+
+<script src="dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/lodash/lodash.min.js"></script>
+<script src="js/mega-mixer.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,192 @@
+    /*
+list-style-type: none; pour masquer les bullets des icones
+ background-color: white !important; !important donne la priorité absolue à la propriété
+ fill: black; pour coloriser un graphique dans un svg
+ filter: grayscale(100%); pour coloriser une image en gris,on peut  aussi faire un filter:none; :-)
+ scale: 80%; pour appliquer un facteur d'échelle à un élément
+ -webkit-transform: scale(0.8); le même pour la compatibilité avec chrome
+ transition-duration: 0.5s; permet de créer une transtion d'état lorsque des propriétés css changent sur un élément
+ transform: rotate(-10deg); applique une rotation à un élément
+ */
+
+    .manav
+    {
+        background-color: rgba(185, 180, 180, 0.93);
+        font-family: Ink Free ;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 3px 3px 3px;
+        position: fixed;
+        z-index: 10;
+
+    }
+    .meslien:hover
+    {
+        background-color: rgb(38, 148, 255);
+        border-radius: 10px;
+
+    }
+    .meslien
+    {
+        margin-right: 20px;
+
+        border-right: rgb(255, 255, 255) solid 1px;
+    }
+
+
+    .navbar
+{
+    background-color: black;
+    color: white;
+}
+
+
+.couleur-logo {
+    fill:darkorange;
+}
+    .size-logo {
+        width:100%;
+    }
+
+.couleur-lien {
+    color: white;
+}
+
+.image-chaussure
+{ 
+background-image: url(./images/wall.jpg) ;
+background-position: center ;
+background-size:cover;
+height: 75vh;
+}
+.chaussure
+{
+    scale:80%;
+    -webkit-transform:scale(0.8);
+      transition-duration: 0.5s;
+      filter: grayscale(1);
+
+}
+
+.chaussure:hover
+{
+    scale: 100%;
+    -webkit-transform:scale(1);
+     transition-duration: 0.5s;
+     filter: grayscale(0);
+     
+} 
+
+
+
+.taille-logo
+{
+      scale:80%;
+    -webkit-transform:scale(0.8);
+      transition-duration: 0.5s;
+      
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+
+.taille-logo:hover
+{
+     scale: 100%;
+    -webkit-transform:scale(1);
+     transition-duration: 0.5s;
+     filter: grayscale(0);
+}
+.logo
+{
+    background-color: black;
+}
+
+.prix {
+    color: white;
+    background-color: red;
+    box-shadow: 5px 5px black;
+    left: 60px;
+    top: 30px;
+    font-weight: bolder;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    transform:rotate(-10deg);
+}
+.prix1
+{
+   color: white;
+    background-color: black;
+    box-shadow: 5px 5px black;
+    left: 140px;
+    top: 30px;
+    font-weight: bolder;
+    width: 110px;
+    height: 40px;
+    transform:rotate(-10deg); 
+}
+.just
+{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+.currentColor
+{
+    fill: white;
+}
+
+.logobas
+{
+    background-color: grey;
+}
+.solde
+{
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .size-logo {
+        width:150px;
+    }
+    .couleur-logo {
+        background-color: black;
+        fill:red;
+    }
+    .taille-logo
+{
+    width: 40px;
+    height: 40px;
+}
+.solde
+{
+    color: white ;
+    background-color: red ;
+    text-align: center;
+    font-size: 20px;
+}
+.nav 
+{
+    flex-direction: column ;
+    width: 100%;
+
+}
+.dropdown-menu
+{
+position: relative !important;
+}
+
+}
+
+
+
+
+
+
+
+ 

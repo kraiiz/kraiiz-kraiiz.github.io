@@ -1,0 +1,142 @@
+.navbar
+{
+    background-color: rgba(185, 180, 180, 0.93);
+    font-family: Ink Free ;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px;
+
+
+}
+.meslien:hover
+{
+  background-color: rgb(38, 148, 255);
+  border-radius: 10px;
+
+}
+
+.meslien
+{
+    margin-right: 20px;
+
+    border-right: rgba(0, 0, 0, 0.35) solid 1px;
+}
+
+
+
+.parent1
+{
+    display: flex;
+    justify-content:center;
+
+}
+
+.titre1
+{
+    font-family: Ink Free;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    width: 50%;
+    display: flex;
+   justify-content: center;
+    margin: 15px;
+}
+.parent2
+{
+    display: flex;
+   justify-content: center;
+
+
+}
+
+
+.cotédroite
+{
+    margin: 10px;
+    column-width: 860px;
+
+    color: white;
+    font-family: Gabriola;
+    font-size: 50px;
+
+
+}
+
+.cotéguauche
+{
+    column-width: 860px;
+margin: 10px;
+
+
+}
+.image
+{
+
+
+    height: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale:100%;
+    -webkit-transform:scale(1);
+    transition-duration: 0.5s;
+    border-radius: 30px;
+    border:solid 2px gray;
+    box-shadow: 4px 4px 4px;
+
+}
+.image:hover
+{
+    scale: 105%;
+    -webkit-transform:scale(1);
+    transition-duration: 0.5s;
+
+}
+
+.image1
+{
+    background-image: url("../images/nuages-blanc.jpg");
+    background-size:820px 250px;
+}
+
+.image2
+{
+    background-image: url("../images/nike.jpg");
+    background-size:709px 150px;
+
+}
+.image3
+{
+    background-image: url("../images/chifoumi-2.png");
+    background-size: 709px 150px;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.image4
+{
+    background-image: url("../images/blender.png");
+    background-color: black;
+}
+
+
+body
+{
+   background-image: url("../images/arriérepplan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+p
+{
+    font-family: MV Boli;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.moparagraphe
+{
+    width: 600px;
+
+}

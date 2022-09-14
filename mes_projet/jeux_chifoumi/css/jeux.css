@@ -1,0 +1,73 @@
+.navbar
+{
+    background-color: rgba(185, 180, 180, 0.93);
+    font-family: Ink Free ;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px;
+    position: fixed;
+    z-index: 10;
+
+}
+.meslien:hover
+{
+    background-color: rgb(38, 148, 255);
+    border-radius: 10px;
+
+}
+.meslien
+{
+    margin-right: 20px;
+
+    border-right: rgba(0, 0, 0, 0.35) solid 1px;
+}
+
+
+.titre {
+    font-size: 60px;
+    text-align: center;
+    background-color: #0a53be;
+    font-family:"Ink Free" ;
+
+}
+.bouton1
+{
+    font-size: 30px;
+    background-color: #0a53be;
+    border: solid 2px;
+
+}
+.bouton1:hover
+{
+    background-color: red;
+    border: solid blue
+}
+.bouton2
+{
+    font-size:100px;
+    font-family: "Ink Free";
+    background-color:#0a53be ;
+    border-radius: 20px;
+    border-color:#7A7A7AA5 ;
+
+}
+.bouton2:hover
+{
+    background-color: red;
+}
+body
+{
+    background-color: #cbb850;
+}
+.vs
+{
+font-size: 100px;
+    color:red ;
+    font-family:"Ink Free" ;
+    border: 5px;
+    border-style: inset;
+    border-radius: 10px;
+
+
+}
+

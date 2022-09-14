@@ -1,0 +1,128 @@
+.navbar
+{
+	background-color: rgba(185, 180, 180, 0.93);
+	font-family: Ink Free ;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 3px 3px 3px;
+	position: fixed;
+	z-index: 10;
+
+}
+.meslien:hover
+{
+	background-color: rgb(38, 148, 255);
+	border-radius: 10px;
+
+}
+.meslien
+{
+	margin-right: 20px;
+
+	border-right: rgba(0, 0, 0, 0.35) solid 1px;
+}
+
+.nohover
+{
+	pointer-events: none;
+
+}
+.Logo
+{
+	text-align: center;
+}
+.fondBouton 
+{
+
+	background-color: red;
+	padding: 40px;
+	font-family: Impact;
+	border-style: inset;
+
+	}
+.fondBouton1
+{
+
+	background-color: #76bb54e8;
+	padding: 40px;
+	font-family: Impact;
+	border-style: inset;
+
+	}
+	.bouton12
+{
+	text-align: center;
+}
+a:hover
+{
+	background-color: yellow;
+}
+.ligne1
+{
+	display: inline-block;
+	width: 50%;
+	
+}
+.parents
+{
+	white-space: nowrap;
+
+}
+.couleur1
+{
+	background-color: #0a07076e ;
+	padding-top: 4%;
+	border-radius: 30%;
+	border-style: groove;
+	border-color: black;
+
+}
+.couleur2
+{
+	background-color: #0a07076e;
+	padding-top: 4%;
+	border-radius: 30%;
+	border-style: groove;
+	border-color: black;
+}
+.boutonenvoyer
+{text-align: center;
+background-color: #0a07076e;
+
+}
+.boutonenvoyer:hover
+{background-color: black;}
+
+.parent3
+
+{display: inline-block;
+          white-space: nowrap;
+          width: 100%;
+          border-style: inset;
+          border-color: black;
+}
+.enfant1 {display: inline-block;
+                   width:33%;}
+
+                   /*drapeau*/
+  .col1{background-color: blue;}
+  .col2{background-color: white;}
+  .col3{background-color: red;}
+                /*fin drapeau*/
+  form
+  {
+  	font-family: Small ;
+  	text-align: center;
+}
+  body
+   {
+   	background-image: url("./images/nuages-blanc.jpg");
+  	width: 100%;
+  }
+
+   
+
+
+
+
+

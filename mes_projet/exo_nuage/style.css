@@ -1,0 +1,183 @@
+.navbar
+{
+	background-color: rgba(185, 180, 180, 0.93);
+	font-family: Ink Free ;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 3px 3px 3px;
+	position: fixed;
+	z-index: 10;
+
+}
+.meslien:hover
+{
+	background-color: rgb(38, 148, 255);
+	border-radius: 10px;
+
+}
+.meslien
+{
+	margin-right: 20px;
+
+	border-right: rgba(0, 0, 0, 0.35) solid 1px;
+}
+
+.nohover
+{
+	pointer-events: none;
+
+}
+body
+{
+		Background-color: black;
+
+	} 
+p
+ {
+font-size:25px;
+font-family: Arial ;
+margin: 0.5cm;
+font-weight:bold  ;
+background-color: ;
+color:#d80000e8 ;
+border-style: solid;
+border-color: #b9b8ec82;
+background-image:url(./nuages-blanc.jpg);
+background-size: cover;
+
+}
+
+
+
+h1,h2,h3
+ {
+	font-family: Calibri  ;
+	border-style: inset;
+	border-color: #b9b8ec82;
+	text-decoration: underline;
+
+}
+
+
+h1,h2,h3,h4
+{
+	font-size: 40px;
+	text-decoration: underline;
+	text-align: center;
+	color: #1c17f7e8;
+
+}
+.fondBouton 
+{
+
+	background-color: red;
+	padding: 40px;
+	font-family: Impact;
+	border-style: inset;
+
+	}
+.fondBouton1
+{
+
+	background-color: #76bb54e8;
+	padding: 40px;
+	font-family: Impact;
+	border-style: inset;
+
+	}
+
+.contact
+{
+
+	background-color:#3775e8e8;
+	font-family: Terminal ;
+
+}
+.mark
+{
+	font-family: small-fonts; 
+	text-align: center;
+	color: black;
+}
+ol 
+{
+ font-size: 30px;
+     font-family: Impact;
+     background-color:#2768ffc2 ; 
+ }
+
+.logo
+{
+	border-radius: 40px;
+
+}
+.image
+{
+	border-radius: 30px;
+	border-style: solid;
+	border-color:blue;
+	width: 100%;
+
+}
+a:hover
+{
+	background-color: yellow;
+
+}
+
+.Logo
+{
+	text-align: center;
+
+}
+.bouton12
+{
+	text-align: center;
+
+
+}
+.imagenuagetitre
+{
+	position: relative;
+	width:100%; 
+	background-image: url("./images/nuages-blanc.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	
+ 
+        }
+.titreenfant
+{
+	position:absolute;
+	top: 100px;
+	margin: auto;
+	padding: auto;
+
+
+	}
+
+.imagecirrus
+{
+	position: relative;
+	background-image: url(./images/nuages-cirrus.jpg);
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+.textecirrus
+{
+	position:absolute;
+	top: 100px;
+	margin:auto;
+	padding: auto;
+	}
+	
+
+
+
+
+
+ 
+
